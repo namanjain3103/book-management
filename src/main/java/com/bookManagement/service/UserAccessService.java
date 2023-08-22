@@ -31,8 +31,7 @@ public class UserAccessService {
 	public String userTypeValidate() {
 		System.out.println("Enter User Type (admin / user):");
 		String typeOfUser = sc.next();
-		if ("admin".equals(typeOfUser) || "user".equals(typeOfUser))
-			;
+		if ("admin".equals(typeOfUser) || "user".equals(typeOfUser));
 		else {
 			System.out.println("--- Not a valide UserType. Try again ---\n");
 			userTypeValidate();
